@@ -8,7 +8,6 @@ class Transaction:
         self.amount = amount
         self.description = description
 
-
 class FinanceTracker():
 
     def __init__(self):
@@ -76,9 +75,6 @@ class FinanceTracker():
             print(f"Error: File '{filename}' not found.")
         except Exception as e:
             print(f"Error loading transactions: {e}")
-
-
-
 
 #main function to execute code
 def main():
